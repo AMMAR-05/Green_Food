@@ -1,0 +1,23 @@
+.nav {
+  opacity: 0;
+  background-color: #34c56cd8;
+  color: #000;
+  /* width: 83.333%; */
+  width: 50%;
+  margin: 1rem auto;
+  height: 56px;
+}
+.opened {
+  animation: slide-down 300ms ease-out;
+  opacity: 1;
+}
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

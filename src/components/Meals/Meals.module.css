@@ -1,0 +1,32 @@
+.meals {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 425px;
+}
+.meals div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 25rem;
+  height: 2rem;
+  margin: 1rem 0;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #34c56ce3;
+}
+.meals div h3 {
+  width: 50%;
+}
+@media only screen and (max-width: 640px) {
+  .meals {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .meals div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+}

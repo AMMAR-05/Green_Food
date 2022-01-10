@@ -1,0 +1,16 @@
+.meals_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin: 1rem 0;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: rgba(52, 197, 108, 0.89);
+}
+.meals_item img {
+  border-top-left-radius: 15px;
+}
+.price {
+  margin-right: 1rem;
+}
