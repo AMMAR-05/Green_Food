@@ -27,7 +27,7 @@ function Header(props) {
       >
         <h2 className="text-sm sm:text-lg text-white">Vegetarian Food</h2>
         <Link to="/">
-          <h1 className="text-sm sm:text-lg text-white">Resto</h1>
+          <h1 className="text-sm sm:text-lg text-white">Green Food</h1>
         </Link>
 
         <CartButton onOpenModal={props.onOpenModal} />
